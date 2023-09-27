@@ -9,7 +9,7 @@ def tsa_import():
     `tsa_item_demand` from the codeup SQl server
     minus item and store ids
     '''
-    filename = 'tsa_items'
+    filename = 'tsa_items.csv'
     
     if os.path.isfile(filename):
         return pd.read_csv(filename)
